@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="../estilos/style-tienda.css">
+  <title>Tienda de Ropa | Colección Primavera 2025</title>
+  <link rel="icon" href="../imagenes/icons8-shirt-48.png" type="image/x-icon">
+
+  <link rel="preconnect" href="../imagenes/icons8-shirt-48.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="tytle">
+      <div>
+        <h1>Colección Primavera 2025 - Tienda de Ropa</h1>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="contenedor">
+      <img src="../imagenes/camiseta.jpg" alt="Colección Primavera" class="imagen">
+      <div class="texto">
+        <p>
+          Descubre las últimas tendencias de nuestra **Colección Primavera 2025**. Tenemos ropa cómoda y estilosa para todas las ocasiones. Encuentra tu look ideal para disfrutar del buen clima. En nuestra tienda, ofrecemos una variedad de opciones que combinan calidad y diseño, perfectas para cualquier tipo de evento.
+        </p>
+      </div>
+    </div>
+
+    <div class="contenedor-preparacion-ingredientes">
+      <div class="productos">
+        <h2>Productos Destacados</h2>
+        <p>Explora nuestros productos más populares:</p>
+        <ul>
+          <li>Camisetas de algodón de alta calidad</li>
+          <li>Pantalones frescos para el verano</li>
+          <li>Vestidos elegantes para la temporada</li>
+          <li>Chaquetas livianas para las noches frescas</li>
+          <li>Zapatos cómodos y con estilo</li>
+        </ul>
+      </div>
+
+      <div class="informacion">
+        <h2>¿Por qué elegirnos?</h2>
+        <p>En nuestra tienda nos enfocamos en ofrecerte ropa que te haga sentir seguro, cómodo y con estilo. Todos nuestros productos son cuidadosamente seleccionados para brindarte lo mejor en moda, con materiales que favorecen tu confort durante todo el día. ¡Visítanos y marca la diferencia con nuestro estilo único!</p>
+      </div>
+
+    </div>
+
+    <div class="bon">
+      <p class="cursiva">¡Haz tu compra hoy y renueva tu guardarropa!</p>
+    </div>
+
+    <div class="calificacion">
+      <h2>Calificación</h2>
+      <p>¿Cómo calificarías tu experiencia con nuestra tienda? ¡Déjanos tu calificación y comentarios!</p>
+      <form action="calificacion.php" method="post">
+        <label for="calificacion">Calificación:</label>
+        <select name="calificacion" id="calificacion">
+          <option value="5">5 estrellas</option>
+          <option value="4">4 estrellas</option>
+          <option value="3">3 estrellas</option>
+          <option value="2">2 estrellas</option>
+          <option value="1">1 estrella</option>
+        </select>
+        <br>
+        <label for="comentario">Comentario:</label>
+        <textarea name="comentario" id="comentario" rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+
+      <div class="despedida">
+        <p>Gracias por visitar nuestra tienda online. Esperamos que encuentres lo que buscas. ¡No dudes en regresar para ver nuestras nuevas colecciones y ofertas!</p>
+      </div>
+
+  </main>
+  <footer style="text-align: center;">
+    <p>&copy; 2025 Tienda de Ropa | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+
+</html>

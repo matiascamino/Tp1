@@ -1,0 +1,185 @@
+body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    margin: 0;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    color: #333;
+  }
+  
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #2f4f4f;
+    border-bottom: 2px solid #2f4f4f;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .tytle {
+    color: #fff;
+    background-color: #ff7f50;
+    border-radius: 30px;
+  }
+  
+  .contenedor {
+    flex-wrap: wrap;
+    border-radius: 30px;
+    gap: 20px;
+    display: flex;
+    background-color: #f0e68c;
+    padding: 10px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .link {
+    color: rgb(19, 19, 255);
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .texto {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    max-width: 500px;
+    min-width: 200px;
+    flex-grow: 1;
+  }
+  
+  .imagen {
+    display: block;
+    border-radius: 30px;
+    min-width: 200px;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .imagen:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0 #ff7f50;
+  }
+  
+  .contenedor-preparacion-ingredientes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px auto;
+  }
+  
+  .productos,
+  .informacion {
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .productos {
+    background-color: #ffebcd;
+    font-size: 18px;
+    color: #2f4f4f;
+  }
+  
+  .productos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .productos li {
+    font-size: 18px;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .informacion {
+    background-color: #f0e68c;
+    font-size: 18px;
+    color: #2f4f4f;
+  }
+  
+  .calificacion {
+    background-color: #ff6347;
+    padding: 20px;
+    font-size: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  .calificacion form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .calificacion select,
+  .calificacion textarea {
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #d2691e;
+    font-size: 15px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .calificacion input[type="submit"] {
+    background-color: #e9967a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s, ease-in-out;
+  }
+  
+  .calificacion input[type="submit"]:hover {
+    background-color: #ff6347;
+    transform: scale(1.05);
+  }
+  
+  .despedida {
+    background-color: #f4a460;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    color: #8b4513;
+    max-width: 600px;
+  }
+  
+  .bon {
+    font-size: 30px;
+    background-color: #ffebcd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    color: #8b4513;
+    max-width: 500px;
+    border: solid #333;
+  }
+  
+  .cursiva {
+    font-family: 'Mr Dafoe', cursive;
+  }
+  
