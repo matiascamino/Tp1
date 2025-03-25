@@ -172,7 +172,7 @@ h2 {
 .preparacion li:hover {
     background-color: #e9967a;
     border-radius: 5px;
-    padding-left: 15px;
+    padding-left: 14px;
     transform: scale(1.1);
 }
 
